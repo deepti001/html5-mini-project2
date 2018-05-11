@@ -1,0 +1,40 @@
+		body{
+			font-family:"Comic Sans MS", sans-serif;
+			background-color: lightgreen;
+		}
+		h1, h2{
+			text-align:center;
+		}
+		h2{
+			background-color: darkgreen;
+			padding: 7px;
+			border-radius: 8px;
+		}
+		table{
+			width:100%;
+		}
+		td{
+			padding:8px;
+		}
+		input, textarea{
+			border-radius: 10px;
+			resize:none;
+			border:none;
+		}
+		textarea:focus, input:focus, textarea:hover, input:hover{
+			outline:none;
+			border:1px solid forestgreen;
+		}
+		
+		.submitbutton{
+			padding: 5px 30px;
+			border-radius: 20px;
+			background-color: darkgreen;
+			color:white;
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+		.submitbutton:hover{
+			cursor:pointer;
+			box-shadow: 5px 5px 5px red;
+		}
